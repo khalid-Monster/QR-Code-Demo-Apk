@@ -253,17 +253,57 @@ body{
     border-right: 2px solid plum;
 }
 
-.DEVOLOPER .company{
-    width: 40px;
-    height: 40px;
+.DEVOLOPER{
+    color: plum;
+}
+
+.DEVOLOPER .cnmae{
+    width: fit-content;
+    height: fit-content;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.DEVOLOPER .cnmae .company{
+    width: 35px;
+    height: 35px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.DEVOLOPER .company img{
+.DEVOLOPER .cnmae h2{
+    color: white;
+}
+
+.DEVOLOPER .cnmae .company img{
     height: 100%;
 }
+
+.DEVOLOPER span{
+    width: 90%;
+    height: 1px;
+    margin: 5px 0px;
+    background-color: white;
+}
+
+.DEVOLOPER .icony{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-size: 26px;
+}
+.DEVOLOPER .icony a{
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    color: white;
+}
+
 
 .control{
     width: 100%;
